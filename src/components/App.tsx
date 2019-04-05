@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import Add from '../Adder';
+import '../App.css';
+import Add from './Adder';
 
 interface ListItem {
   ID: string,
