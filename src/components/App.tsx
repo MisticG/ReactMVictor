@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Add from './Adder';
+import List from './List'
 
 interface ListItem {
   ID: string,
@@ -12,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-      <Add />
-
+      <Add/>
+      <List/>
       </div>
     )
   }
